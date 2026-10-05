@@ -21,7 +21,7 @@ def check_guess(secret,guess):
     
 def play_game():
     secret_number=generate_number()
-    attempts=10
+    attempts=6
     print("I have chosen number between 1 and 100.You have 10 attempts!")
     
     for attempts in range(1,attempts+ 1):
