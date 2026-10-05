@@ -6,7 +6,9 @@ try:
 except ValueError:
     print("Enter a valid number")
 except ZeroDivisionError:
-    print("Something went wrong")        
+    print("Something went wrong")  
+else:
+    print("calculation successfully completed")          
 finally:
     print("Work Done ..THANK YOU..")
     
