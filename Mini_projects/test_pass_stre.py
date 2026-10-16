@@ -13,13 +13,13 @@ def password_strength(password):
         strength+=1
     #decide strength
     if strength==3:
-        return "STRONG!!"
+        print ("STRONG!!")
     elif strength==2:
-        return "MEDIUM!!"
+        print ("MEDIUM!!")
     elif strength==1:
-        return "NORMAL!!"
+        print ("NORMAL!!")
     else:
-        return "WEAK!!"
+        print("WEAK!!")
 #main prog
 pwd=input("Enter Your Password :")
 print("password strength :",password_strength(pwd))    
